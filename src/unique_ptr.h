@@ -25,7 +25,7 @@
 #if __cplusplus >= 201103L && !defined(OPEN_VCDIFF_USE_AUTO_PTR) // C++11
 #define UNIQUE_PTR std::unique_ptr
 #else
-#define UNIQUE_PTR std::auto_ptr
+#define UNIQUE_PTR std::unique_ptr
 #endif  // __cplusplus >= 201103L && !defined(OPEN_VCDIFF_USE_AUTO_PTR)
 
 #endif  // OPEN_VCDIFF_UNIQUE_PTR_H_
